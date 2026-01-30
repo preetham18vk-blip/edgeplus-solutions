@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>EDGEPLUS SOLUTIONS | Interior Design Company</title>
+  <meta name="description" content="EDGEPLUS SOLUTIONS is a professional interior design company offering residential and commercial interior solutions across India." />
+  <meta name="keywords" content="Interior Design Company, Home Interiors, Office Interiors, Modular Kitchen, EDGEPLUS SOLUTIONS" />
+  <meta name="author" content="EDGEPLUS SOLUTIONS" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #2c5364;   /* Brand Blue */
+      --secondary: #cfa14a; /* Gold Accent */
+      --dark: #1a1a1a;
+      --light: #f9f9f9;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: var(--light); color: #333; line-height: 1.6; }
+
+    /* Header */
+    header { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); padding: 20px 0; }
+    nav { max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+
+    .logo { display: flex; align-items: center; gap: 10px; color: #fff; }
+    .logo img { width: 45px; height: 45px; }
+    .logo h1 { font-size: 22px; }
+
+    nav ul { list-style: none; display: flex; gap: 25px; }
+    nav ul li a { color: #fff; text-decoration: none; font-weight: 500; }
+
+    /* Hero */
+    .hero { text-align: center; padding: 80px 20px; color: #fff; }
+    .hero h2 { font-size: 44px; margin-bottom: 15px; }
+    .hero p { font-size: 18px; opacity: 0.9; }
+    .btn { display: inline-block; margin-top: 25px; padding: 12px 35px; background: var(--secondary); color: #000; border-radius: 30px; text-decoration: none; font-weight: 600; }
+
+    section { padding: 80px 20px; }
+    .container { max-width: 1200px; margin: auto; }
+    .section-title { text-align: center; margin-bottom: 50px; }
+    .section-title h2 { font-size: 34px; margin-bottom: 10px; color: var(--primary); }
+
+    /* Services */
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; }
+    .service-box { background: #fff; padding: 30px; border-radius: 18px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+    .service-box h3 { margin-bottom: 10px; }
+
+    /* Portfolio */
+    .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; }
+    .portfolio div { background: #ddd; height: 200px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 600; }
+
+    /* Contact */
+    .contact-box { background: #fff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+    form { display: grid; gap: 15px; }
+    input, textarea { padding: 12px; border-radius: 8px; border: 1px solid #ccc; }
+    button { padding: 14px; border: none; background: var(--primary); color: #fff; font-size: 16px; border-radius: 8px; cursor: pointer; }
+
+    /* WhatsApp Button */
+    .whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: #25D366;
+      color: #fff;
+      padding: 15px 18px;
+      border-radius: 50%;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    footer { background: var(--dark); color: #aaa; text-align: center; padding: 20px; }
+
+    @media(max-width:768px){
+      .hero h2 { font-size: 32px; }
+      nav ul { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="https://dummyimage.com/100x100/ffffff/000000&text=E+S" alt="EDGEPLUS SOLUTIONS Logo">
+      <h1>EDGEPLUS SOLUTIONS</h1>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Premium Interior Design Solutions</h2>
+  <p>Residential • Commercial • Modular Interiors</p>
+  <a href="#contact" class="btn">Free Design Consultation</a>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="section-title"><h2>Our Interior Services</h2></div>
+    <div class="services">
+      <div class="service-box">
+        <h3>Home Interiors</h3>
+        <p>Stylish living rooms, bedrooms, wardrobes, and complete home interiors with premium finishes.</p>
+      </div>
+      <div class="service-box">
+        <h3>Modular Kitchen</h3>
+        <p>Space-efficient modern kitchens designed for durability, storage, and elegant looks.</p>
+      </div>
+      <div class="service-box">
+        <h3>Office & Commercial Interiors</h3>
+        <p>Professional office interiors that enhance productivity, branding, and workflow.</p>
+      </div>
+      <div class="service-box">
+        <h3>Sales & Project Execution</h3>
+        <p>Dedicated sales consultation, transparent pricing, 3D design approval, and end-to-end project execution with timelines.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <div class="section-title"><h2>Our Portfolio</h2></div>
+    <div class="portfolio">
+      <div>Living Room</div>
+      <div>Modular Kitchen</div>
+      <div>Bedroom</div>
+      <div>Office Interior</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-title"><h2>Contact Us</h2></div>
+
+    <div class="contact-box">
+      <form action="mailto:edgeplussolutions@email.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Phone Number">
+        <textarea name="message" rows="5" placeholder="Your Requirement"></textarea>
+        <button type="submit">Send Enquiry</button>
+      </form>
+
+      <br>
+      <h3 style="margin-bottom:10px; color:#2c5364;">Sales & Support</h3>
+      <p><strong>Sales Manager:</strong> EDGEPLUS Sales Team</p>
+      <p><strong>Phone:</strong> +91 90000 00000</p>
+      <p><strong>Email:</strong> sales@edgeplussolutions.com</p>
+      <p><strong>Working Hours:</strong> Mon – Sat | 10:00 AM – 7:00 PM</p>
+
+      <br>
+      <h3 style="margin-bottom:10px; color:#2c5364;">Our Location</h3>
+      <iframe 
+        src="https://www.google.com/maps?q=EDGEPLUS%20SOLUTIONS%20Interior%20Design&output=embed" 
+        width="100%" 
+        height="300" 
+        style="border:0; border-radius:12px;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919000000000" target="_blank">💬</a>
+
+<footer>
+  <p>© 2026 EDGEPLUS SOLUTIONS | Interior Design Company</p>
+</footer>
+
+</body>
+</html>
